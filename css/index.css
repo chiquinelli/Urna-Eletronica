@@ -1,0 +1,89 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.div1 {
+    grid-area: 1 / 1 / 6 / 4;
+    background-color: #FFFFFF;
+}
+.tela-urna{
+    margin-top: 300px;
+    text-align-last: center;
+    /* display: flex; */
+    font-size: xxx-large;
+    font-family: fantasy;
+}
+
+.div2 {
+    grid-area: 1 / 4 / 4 / 6;
+    background-color: #272424;
+}
+
+table {
+    margin: 20px auto;
+}
+
+td {
+    width: 157px;
+    height: 104px;
+    text-align: center;
+    font-size: xx-large;
+    background-color: #10100F;
+    color: #ffffff;
+    border: outset;
+
+}
+
+.td-vazio {
+    border: hidden;
+
+}
+
+td:active {
+    border: none;
+    background-color: #1E1F20;
+
+}
+
+.div3 {
+    grid-area: 4 / 4 / 6 / 6;
+    background-color: #272424;
+
+
+}
+
+.botoes {
+    MARGIN: 40px;
+    text-align-last: center;
+
+}
+
+.bt-branco {
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-size: 40px;
+    width: 150px;
+    height: 75px;
+}
+
+.bt-corrige {
+    border-radius: 10px;
+    background-color: #bb1212;
+    font-size: 40px;
+    width: 150px;
+    height: 75px;
+    margin-left: 18px;
+}
+
+.bt-confirma {
+    border-radius: 10px;
+    background-color: #12bb36;
+    font-size: 40px;
+    width: 178px;
+    height: 101px;
+    margin-left: 18px;
+}
